@@ -355,11 +355,13 @@ h1 span {
 
 .radio-w3ls li input[type="radio"] {
     cursor: pointer;
+	width:2em;
+	height:2em;
 }
 
 .radio-w3ls li label {
     color: #fff;
-    font-size: 13.5px;
+    font-size: 20.5px;
     font-weight: 400;
     letter-spacing: 1px;
     font-family: 'Montserrat Alternates', sans-serif;
