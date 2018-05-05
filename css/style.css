@@ -355,13 +355,13 @@ h1 span {
 
 .radio-w3ls li input[type="radio"] {
     cursor: pointer;
-	width:2em;
-	height:2em;
+	width:1.5em;
+	height:1.5em;
 }
 
 .radio-w3ls li label {
     color: #fff;
-    font-size: 20.5px;
+    font-size: 15.5px;
     font-weight: 400;
     letter-spacing: 1px;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -401,14 +401,13 @@ select#country1 option {
     background: #000;
 }
 
-.book-agileinfo-form input[type="submit"],
-.book-agileinfo-form input[type="reset"] {
+.book-agileinfo-form input[type="submit"] {
     text-transform: capitalize;
-    background: #ecb731;
+    background: green;
     color: #000000;
     padding: 0.7em 0em;
     border: none;
-    border: 2px solid #ecb731;
+    border: 2px solid green;
     font-weight: 600;
     font-size: 1em;
     margin-top: 1em;
@@ -419,6 +418,35 @@ select#country1 option {
     -moz-transition: .5s all;
     transition: .5s all;
     cursor: pointer;
+	background-image: url('../images/whatsapp.svg'), green; /* fallback color if gradients are not supported */
+    background-image: url('../images/whatsapp.svg'), -webkit-linear-gradient(top, green, #51A351);
+    background-image: url('../images/whatsapp.svg'),    -moz-linear-gradient(top, green, #51A351); /* For Fx 3.6 to Fx 15 */
+    background-image: url('../images/whatsapp.svg'),     -ms-linear-gradient(top, green, #51A351); /* For IE 10 Platform Previews and Consumer Preview */
+    background-image: url('../images/whatsapp.svg'),      -o-linear-gradient(top, green, #51A351); /* For Opera 11.1 to 12.0 */
+    background-image: url('../images/whatsapp.svg'),         linear-gradient(top, green, #51A351); /* Standard syntax; must be the last statement */
+    background-repeat: no-repeat;
+    background-position: 5px 50%, 0cm 0cm;
+    padding-left: 25px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);	
+}
+.book-agileinfo-form input[type="reset"] {
+    text-transform: capitalize;
+    background: orange;
+    color: #000000;
+    padding: 0.7em 0em;
+    border: none;
+    border: 2px solid orange;
+    font-weight: 600;
+    font-size: 1em;
+    margin-top: 1em;
+    width: 49%;
+    outline: none;
+    letter-spacing: 1px;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+    cursor: pointer;
+
 }
 
 .book-agileinfo-form input[type="submit"] {
